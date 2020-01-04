@@ -33,3 +33,20 @@ Pearson's skewness = 0.7361258019141782
 ```
 thinkstats2.PearsonMedianSkewness(sample)
 ```
+
+I wasn't able to access previous function "EvalCdf" from an earlier exercise on the notebook, so I added to the notebook and the answer below.
+
+```
+def EvalCdf(sample, x):
+    count = 0.0
+    for value in sample:
+        if value <= x:
+            count += 1
+
+    prob = count / len(sample)
+    return prob
+
+EvalCdf(sample, 74278.7075311872)
+# hard coded the mean above
+```
+The result is: 0.660005879566872 or 66% or roughly two-thirds of households have an income below the mean. If the remove the assumed upper bound and assuming very large incomes, the mean would become very high pushing the fraction to be larger.
