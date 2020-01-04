@@ -95,7 +95,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> They are both used to look at similar kinds of data. Bayesian can be used to fill in gaps in data that is not immediately available. Both use ideas of sets and subsets to determine to calculate probabilities of multiple data points (for example, probability of being male *and* white).
 
 ---
 
